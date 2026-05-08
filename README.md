@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/banner.png" alt="Anuvad banner" width="80%"/>
+</p>
+
+<p align="center">
   <img src="assets/demo.gif" alt="Anuvad in action" width="80%"/>
 </p>
 
