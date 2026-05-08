@@ -126,7 +126,7 @@ anuvad/
 │   └── results.md         # Latest scores (auto-written)
 ├── tests/
 │   └── test_translator.py # Pytest smoke tests
-├── notebooks/             # Exploration notebooks
+│
 ├── assets/                # Banner, demo GIF
 ├── app.py                 # Streamlit frontend
 ├── requirements.txt
