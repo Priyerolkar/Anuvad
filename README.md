@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/screenshot_main.png" alt="Anuvad in action" width="80%"/>
+  <img src="assets/demo.gif" alt="Anuvad in action" width="80%"/>
 </p>
 
 <h1 align="center">Anuvad 🌐</h1>
@@ -69,7 +69,6 @@ Evaluated on a hand-curated set of **20 engineering sentences** drawn from NPTEL
 **Context for these numbers:** BLEU 30+ is considered strong for any translation system, and 40+ is very good. The Hindi result (BLEU 42.57) reflects the larger amount of training data IndicTrans2 has for Hindi compared to Marathi. Both directions translate domain-specific engineering vocabulary correctly — terms like *deep drawing*, *tolerance stack-up*, and *heat exchanger* are preserved with technical precision.
 
 
-*Replace TBD with your numbers after running the evaluation script — see "Run the evaluation" below.*
 
 ## 🚀 Run it locally
 
