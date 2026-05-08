@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Hugging Face / model caches (these are HUGE — never commit)
+.cache/
+models/
+*.bin
+*.safetensors
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
