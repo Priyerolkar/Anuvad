@@ -6,14 +6,14 @@
   <img src="assets/demo.gif" alt="Anuvad in action" width="80%"/>
 </p>
 
-<h1 align="center">Anuvad 🌐</h1>
+<h1 align="center">Anuvad </h1>
 <p align="center">
   <em>Engineering content translator — English ⇄ Marathi & Hindi</em>
 </p>
 
 <p align="center">
   <a href="https://huggingface.co/spaces/Priyerolkar/anuvad">
-    <img src="https://img.shields.io/badge/🤗-Live%20Demo-yellow"/>
+    <img src="https://img.shields.io/badge/-Live%20Demo-yellow"/>
   </a>
   <img src="https://img.shields.io/badge/python-3.10+-blue"/>
   <img src="https://img.shields.io/badge/license-MIT-green"/>
@@ -22,19 +22,19 @@
 
 ---
 
-## 🎯 What it does
+##  What it does
 
 Anuvad translates technical engineering content from English into Marathi and Hindi (with support for Tamil, Bengali, Telugu, Gujarati, and Kannada). It's built for engineering documentation, technical manuals, educational coursework, and CAD/manufacturing content — domains where generic translators often lose precision.
 
 **Try the live demo:** [huggingface.co/spaces/Priyerolkar/anuvad](https://huggingface.co/spaces/Priyerolkar/anuvad) *(replace with your URL after deployment)*
 
-## 🧩 The problem
+##  The problem
 
 Generic translation tools handle conversational text well but struggle with engineering domain vocabulary — terms like *deep drawing*, *heat exchanger*, *feed rate*, or *tolerance stack-up* often translate awkwardly or lose precision in Indian languages. This matters for technical education and documentation, where mistranslating a term can change the meaning of an entire procedure.
 
 I encountered this firsthand while volunteering as a technical translator for **NPTEL (IIT Kharagpur)** in 2021, where I translated 10.5+ hours of engineering coursework into Marathi (Energy Conservation & Waste Heat Recovery; Engineering Drawing & Computer Graphics). Anuvad is the productized version of that work.
 
-## 🛠️ How it works
+##  How it works
 
 | Component  | Tech                                        |
 |------------|---------------------------------------------|
@@ -58,7 +58,7 @@ Translation + latency
 Streamlit UI
 ```
 
-## 📊 Results
+##  Results
 
 Evaluated on a hand-curated set of **20 engineering sentences** drawn from NPTEL coursework, mechanical engineering textbooks, and automotive manuals.
 
@@ -74,7 +74,7 @@ Evaluated on a hand-curated set of **20 engineering sentences** drawn from NPTEL
 
 
 
-## 🚀 Run it locally
+##  Run it locally
 
 **Requirements:** Python 3.10+, ~2 GB free disk for model download.
 
@@ -107,7 +107,7 @@ uvicorn api.main:app --reload --port 8000
 python -m api.translator
 ```
 
-## 🧪 Run the evaluation
+##  Run the evaluation
 
 ```bash
 python -m evaluation.evaluate                    # Both Marathi and Hindi
@@ -117,7 +117,7 @@ python -m evaluation.evaluate --limit 5          # Quick test on first 5 rows
 
 Results are written to `evaluation/results.md`. Paste the table into the README's Results section.
 
-## 📁 Repo structure
+##  Repo structure
 
 ```
 anuvad/
@@ -137,7 +137,7 @@ anuvad/
 └── README.md
 ```
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [x] IndicTrans2 baseline (Marathi, Hindi)
 - [x] FastAPI service + Streamlit UI
@@ -150,18 +150,18 @@ anuvad/
 - [ ] Compare against Google Translate baseline
 - [ ] Fine-tune on engineering parallel corpus
 
-## 👤 Built by
+##  Built by
 
 **Priyanka Yerolkar** — Mechanical & Automotive engineer building AI for industrial problems.
 B.E. Mechanical · M.E. Automotive Engineering · Published research on deep drawing forming parameters (IJAuERD, 2020).
 
 [LinkedIn](https://linkedin.com/in/priyankayerolkar) · [GitHub](https://github.com/Priyerolkar)
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [AI4Bharat](https://ai4bharat.iitm.ac.in/) for [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2)
 - [NPTEL (IIT Kharagpur)](https://nptel.ac.in/) for the technical translation program that inspired this project
 
-## 📄 License
+##  License
 
 MIT — see [LICENSE](LICENSE).
