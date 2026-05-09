@@ -6,6 +6,7 @@ colorTo: green
 sdk: streamlit
 sdk_version: 1.32.0
 app_file: app.py
+python_version: "3.10"
 pinned: true
 license: mit
 short_description: Engineering content translator — English to Marathi & Hindi
