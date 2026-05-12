@@ -20,7 +20,6 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Anuvad — Engineering Translator",
-    page_icon="🌐",
     layout="centered",
 )
 
@@ -63,7 +62,7 @@ def translate(text: str, target_lang: str) -> dict:
 
 # ---------- UI ----------
 
-st.title("🌐 Anuvad")
+st.title("Anuvad")
 st.caption("**Engineering content translator — English → Marathi · Hindi · and more**")
 
 with st.expander("ℹ️ About this project"):
