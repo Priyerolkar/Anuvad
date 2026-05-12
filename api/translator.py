@@ -81,11 +81,22 @@ class Translator:
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         logger.info("Loading %s on %s ...", model_name, self.device)
 
+<<<<<<< HEAD
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(
             model_name, trust_remote_code=True
         ).to(self.device)
         self.model.eval()
+=======
+        import os
+        hf_token = os.environ.get("HF_TOKEN")
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_name, trust_remote_code=True, token=hf_token
+        )
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(
+            model_name, trust_remote_code=True, token=hf_token
+        ).to(self.device)
+>>>>>>> f96f7d2dcb8a36842b7d0210887efca96321ec8c
 
         # Moses utilities for English source side.
         self.en_normalizer = MosesPunctNormalizer(lang="en")

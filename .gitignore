@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -34,3 +35,10 @@ dist/
 
 # Notebooks
 .ipynb_checkpoints/
+=======
+﻿__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+>>>>>>> f96f7d2dcb8a36842b7d0210887efca96321ec8c

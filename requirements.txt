@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # --- Core ML / model runtime ---
 torch>=2.1.0
 transformers>=4.40.0
@@ -20,3 +21,11 @@ sacrebleu>=2.4.0
 
 # --- Dev / tests ---
 pytest>=8.0.0
+=======
+﻿torch==2.1.2
+transformers==4.40.2
+sentencepiece==0.1.99
+sacremoses==0.1.1
+streamlit==1.32.0
+huggingface_hub==0.23.5
+>>>>>>> f96f7d2dcb8a36842b7d0210887efca96321ec8c

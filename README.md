@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="assets/banner.png" alt="Anuvad banner" width="80%"/>
 </p>
@@ -165,3 +166,26 @@ B.E. Mechanical · M.E. Automotive Engineering · Published research on deep dra
 ##  License
 
 MIT — see [LICENSE](LICENSE).
+=======
+﻿---
+title: Anuvad
+emoji: 🌐
+colorFrom: indigo
+colorTo: green
+sdk: streamlit
+sdk_version: 1.32.0
+app_file: app.py
+python_version: "3.10"
+pinned: true
+license: mit
+short_description: Engineering content translator — English to Marathi & Hindi
+---
+
+# Anuvad
+
+Engineering content translator — English ⇄ Marathi & Hindi.
+Built with IndicTrans2 (AI4Bharat).
+
+See the [GitHub repo](https://github.com/Priyerolkar/Anuvad) for full documentation,
+evaluation results, and source code.
+>>>>>>> f96f7d2dcb8a36842b7d0210887efca96321ec8c
